@@ -1,16 +1,13 @@
 "use client";
 
 import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
 import Link from 'next/link';
 import { useCallback } from 'react';
 import { projects } from '@/data/projects';
 import styles from './Projects.module.css';
 
 export default function Projects() {
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'start' }, [
-        Autoplay({ delay: 4000, stopOnInteraction: false })
-    ]);
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false, align: 'start' });
 
     const scrollPrev = useCallback(() => {
         if (emblaApi) emblaApi.scrollPrev();

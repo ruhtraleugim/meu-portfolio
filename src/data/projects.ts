@@ -18,7 +18,7 @@ export const projects: Project[] = [
     title: 'URL Shortener Enterprise',
     description: 'Sistema de encurtamento de URLs escalável com Cassandra e Redis.',
     tags: ['Java', 'Spring', 'Cassandra', 'Redis', 'Docker'],
-    image: '/projects/url-shortener.jpg',
+    image: '/projects/server.png',
     status: 'Em Desenvolvimento',
     content: `
       <h2>Visão Geral</h2>
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     title: 'API de Autenticação & Segurança',
     description: 'Serviço centralizado de identidade com OAuth2, RBAC e auditoria.',
     tags: ['Java', 'Spring Security', 'JWT', 'DevSecOps'],
-    image: '/projects/auth-security.jpg',
+    image: '/projects/security.png',
     status: 'Em Desenvolvimento',
     content: `
       <h2>Visão Geral</h2>
@@ -76,7 +76,7 @@ export const projects: Project[] = [
     title: 'Sistema de Inventário 2.0',
     description: 'Evolução profissional de sistema de gestão com foco em qualidade de código.',
     tags: ['Java', 'Clean Code', 'Swagger', 'PostgreSQL'],
-    image: '/projects/inventory-2.jpg',
+    image: '/projects/dashboard.png',
     status: 'Em Desenvolvimento',
     content: `
       <h2>Visão Geral</h2>
@@ -99,7 +99,7 @@ export const projects: Project[] = [
     title: 'Microsserviços: Product & Order',
     description: 'Arquitetura distribuída com comunicação assíncrona via Kafka.',
     tags: ['Microservices', 'Kafka', 'Docker', 'CI/CD'],
-    image: '/projects/microservices.jpg',
+    image: '/projects/server.png',
     status: 'Em Desenvolvimento',
     content: `
       <h2>Visão Geral</h2>
@@ -123,7 +123,7 @@ export const projects: Project[] = [
     title: 'Infraestrutura como Código (IaC)',
     description: 'Provisionamento automatizado de infraestrutura AWS com Terraform.',
     tags: ['Terraform', 'AWS', 'DevOps', 'IaC'],
-    image: '/projects/terraform.jpg',
+    image: '/projects/server.png', // Fallback to server image
     status: 'Em Desenvolvimento',
     content: `
       <h2>Visão Geral</h2>
@@ -147,7 +147,7 @@ export const projects: Project[] = [
     title: 'Hardening & OWASP',
     description: 'Aplicação focada em segurança defensiva e documentação de ameaças.',
     tags: ['Security', 'OWASP', 'Hardening', 'Docker'],
-    image: '/projects/security.jpg',
+    image: '/projects/security.png',
     status: 'Em Desenvolvimento',
     content: `
       <h2>Visão Geral</h2>
@@ -169,7 +169,7 @@ export const projects: Project[] = [
     title: 'Log Observer / Monitoramento',
     description: 'Sistema de observabilidade com Prometheus e Grafana.',
     tags: ['Observability', 'Prometheus', 'Grafana', 'Spring Boot'],
-    image: '/projects/monitoring.jpg',
+    image: '/projects/dashboard.png',
     status: 'Em Desenvolvimento',
     content: `
       <h2>Visão Geral</h2>
