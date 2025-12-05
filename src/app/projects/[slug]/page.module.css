@@ -1,0 +1,109 @@
+.main {
+    min-height: 100vh;
+    padding: 120px 0 60px;
+}
+
+.backLink {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.backLink:hover {
+    color: var(--primary);
+}
+
+.header {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    color: var(--text-muted);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 4rem;
+}
+
+.body {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-muted);
+}
+
+.body h2 {
+    color: var(--foreground);
+    font-size: 2rem;
+    margin: 2.5rem 0 1.5rem;
+}
+
+.body h3 {
+    color: var(--foreground);
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+}
+
+.body ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.body p {
+    margin-bottom: 1.5rem;
+}
+
+.btnSecondary {
+    background: transparent;
+    color: var(--foreground);
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    border: 1px solid var(--surface-hover);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: block;
+    text-decoration: none;
+}
+
+.btnSecondary:hover {
+    background: var(--surface-hover);
+}
+
+@media (max-width: 968px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        order: -1;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}

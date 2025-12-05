@@ -1,0 +1,114 @@
+:root {
+  /* Primary Brand Colors - Electric Violet & Cyan */
+  --primary-hue: 260;
+  --primary-sat: 100%;
+  --primary-lig: 65%;
+  --primary: hsl(var(--primary-hue), var(--primary-sat), var(--primary-lig));
+  
+  --secondary-hue: 180;
+  --secondary-sat: 100%;
+  --secondary-lig: 50%;
+  --secondary: hsl(var(--secondary-hue), var(--secondary-sat), var(--secondary-lig));
+
+  /* Backgrounds - Deep Space */
+  --bg-hue: 240;
+  --bg-sat: 20%;
+  --bg-lig: 4%;
+  --background: hsl(var(--bg-hue), var(--bg-sat), var(--bg-lig));
+  --surface: hsl(var(--bg-hue), var(--bg-sat), 8%);
+  --surface-hover: hsl(var(--bg-hue), var(--bg-sat), 12%);
+
+  /* Text */
+  --foreground: hsl(0, 0%, 98%);
+  --text-muted: hsl(240, 5%, 65%);
+
+  /* Accents */
+  --accent-glow: 0 0 20px hsla(var(--primary-hue), 100%, 50%, 0.3);
+  --glass-border: hsla(0, 0%, 100%, 0.1);
+  --glass-bg: hsla(240, 20%, 4%, 0.7);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 15px hsla(var(--primary-hue), 100%, 50%, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px hsla(var(--primary-hue), 100%, 50%, 0.4);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--surface-hover);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
