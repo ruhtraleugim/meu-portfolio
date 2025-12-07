@@ -8,7 +8,7 @@ export interface Project {
   content: string;
   githubUrl?: string;
   liveUrl?: string;
-  status?: 'Em Desenvolvimento' | 'Concluído' | 'Planejado';
+  status?: 'Em Desenvolvimento' | 'Concluído | Fase final' | 'Planejado';
 }
 
 export const projects: Project[] = [
@@ -17,33 +17,36 @@ export const projects: Project[] = [
     slug: 'url-shortener-enterprise',
     title: 'URL Shortener Enterprise',
     description: 'Sistema de encurtamento de URLs escalável com Cassandra e Redis.',
-    tags: ['Java', 'Spring', 'Cassandra', 'Redis', 'Docker'],
+    tags: ['Java', 'Spring', 'Cassandra', 'Redis', 'Docker', 'DevSecOps'],
     image: '/projects/server.png',
     status: 'Em Desenvolvimento',
     content: `
       <h2>Visão Geral</h2>
-      <p>O melhor projeto possível para o perfil de Backend/DevOps. Foca em escalabilidade, arquitetura, segurança e domínio de tecnologias não triviais.</p>
+      <p>Projeto de encurtamento de URLs escalável com Cassandra e Redis. Com o foco em mostrar decisões arquiteturais e minha maturidade como desenvolvedor.</p>
       
       <h3>Stack Tecnológica</h3>
       <ul>
-        <li><strong>Core:</strong> Java + Spring Boot</li>
+        <li><strong>Core:</strong> Java 21 + Spring Boot 7</li>
         <li><strong>Banco de Dados:</strong> Cassandra (leitura rápida)</li>
         <li><strong>Cache:</strong> Redis</li>
-        <li><strong>Infra:</strong> Docker Compose</li>
+        <li><strong>Infra:</strong> Docker</li>
+        <li><strong>CI/CD:</strong> GitHub Actions</li>
+        <li><strong>Monitoramento:</strong> Prometheus + Grafana</li>
+        <li><strong>Segurança:</strong> Autenticação via JWT + Safe Browsing API(Google)</li>
       </ul>
 
       <h3>Funcionalidades Chave</h3>
       <ul>
         <li>Encurtamento de URLs com TTL configurável</li>
         <li>Rate Limiting para proteção da API</li>
-        <li>Autenticação via JWT</li>
+        <li>Autenticação via JWT + Safe Browsing API(Google)</li>
         <li>Pipeline CI/CD com security scan</li>
       </ul>
 
       <h3>Valor no Portfólio</h3>
-      <p>Demonstra capacidade de lidar com alto tráfego e dados distribuídos.</p>
+      <p>Demonstra capacidade de lidar com alto tráfego e dados distribuídos, alem de corte de custos consideraveis.</p>
     `,
-    githubUrl: 'https://github.com/ruhtraleugim',
+    githubUrl: 'https://github.com/ruhtraleugim/EncurtadorDeUrl',
   },
   {
     id: '2',
