@@ -24,25 +24,21 @@ export default function About() {
 
                     <div className={styles.cards}>
                         <div className={styles.card}>
-                            <span className={styles.cardIcon}>☕</span>
                             <h3 className={styles.cardTitle}>Back-end</h3>
                             <p className={styles.cardDesc}>Java, Spring Boot, PostgreSQL, Cassandra, Arquitetura Distribuída</p>
                         </div>
 
                         <div className={styles.card}>
-                            <span className={styles.cardIcon}>🚀</span>
                             <h3 className={styles.cardTitle}>DevOps & SecOps</h3>
                             <p className={styles.cardDesc}>CI/CD, Pipelines, Observabilidade, Segurança, Docker</p>
                         </div>
 
                         <div className={styles.card}>
-                            <span className={styles.cardIcon}>⚛️</span>
                             <h3 className={styles.cardTitle}>Frontend</h3>
                             <p className={styles.cardDesc}>Next.js, React, Interfaces Eficientes e Integradas</p>
                         </div>
 
                         <div className={styles.card}>
-                            <span className={styles.cardIcon}>🏗️</span>
                             <h3 className={styles.cardTitle}>Engenharia</h3>
                             <p className={styles.cardDesc}>Performance, Simplicity, Entrega Contínua, Sistemas Sólidos</p>
                         </div>

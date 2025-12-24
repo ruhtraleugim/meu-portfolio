@@ -44,7 +44,7 @@ export const projects: Project[] = [
       </ul>
 
       <h3>Valor no Portfólio</h3>
-      <p>Demonstra capacidade de lidar com alto tráfego e dados distribuídos, alem de corte de custos consideraveis.</p>
+      <p>Demonstra capacidade de lidar com alto tráfego e dados distribuídos, alem de corte de custos consideraveis por planejamento tecnico.</p>
     `,
     githubUrl: 'https://github.com/ruhtraleugim/EncurtadorDeUrl',
   },
@@ -187,5 +187,28 @@ export const projects: Project[] = [
       </ul>
     `,
     githubUrl: 'https://github.com/ruhtraleugim',
+  }, {
+    id: '8',
+    slug: 'livraria',
+    title: 'Livraria distribuida',
+    description: 'um sistema de inventário de livros onde usuarios podem enviar arquivos para eles mesmo, e possam baixar livros de graça de outros conteiners',
+    tags: ['python', 'docker', 'docker-compose', 'flask', 'postgres', 'pyjwt', 'aws', 'rabbitmq', 'pytest'],
+    image: '/projects/dashboard.png',
+    status: 'Em Desenvolvimento',
+    content: `
+      <h2>Visão Geral</h2>
+      <p>um sistema de inventário de livros onde usuarios podem enviar arquivos para eles mesmo, e possam baixar livros de graça de outros conteiners</p>
+      
+      <h3>Stack</h3>
+      <ul>
+        <li>Flask</li>
+        <li>Postgres</li>
+        <li>PyJWT</li>
+        <li>AWS</li>
+        <li>RabbitMQ</li>
+        <li>Pytest</li>
+      </ul>
+    `,
+    githubUrl: 'https://github.com/Areopagusioteam/-RestAPI-com-Python-e-Flask',
   },
 ];

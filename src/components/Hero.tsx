@@ -17,7 +17,7 @@ export default function Hero() {
                         <span className="gradient-text">Sólida e Escalável</span>
                     </h1>
                     <p className={styles.subtitle}>
-                        Focado em Back-end, DevOps e DevSecOps. Construindo sistemas à prova de falhas,
+                        Focado em Back-end e DevSecOps. Construindo sistemas à prova de falhas,
                         do código à infraestrutura.
                     </p>
 

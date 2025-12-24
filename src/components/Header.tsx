@@ -26,14 +26,10 @@ export default function Header() {
 
                     <ul className={styles.links}>
                         <li><Link href="#home" className={styles.link}>Início</Link></li>
-                        <li><Link href="#projects" className={styles.link}>Projetos</Link></li>
                         <li><Link href="#about" className={styles.link}>Sobre</Link></li>
+                        <li><Link href="#projects" className={styles.link}>Projetos</Link></li>
                         <li><Link href="#contact" className={styles.link}>Contato</Link></li>
                     </ul>
-
-                    <button className={styles.mobileMenuBtn} aria-label="Menu">
-                        ☰
-                    </button>
                 </nav>
             </div>
         </header>

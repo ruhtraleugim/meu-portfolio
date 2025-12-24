@@ -7,26 +7,24 @@ export default function Contact() {
                 <h2 className={`${styles.title} gradient-text`}>Vamos Conversar?</h2>
 
                 <p className={styles.description}>
-                    Aberto para projetos e oportunidades em Back-end, DevOps, DevSecOps e aplicações full-stack com Next.js.
+                    Aberto para projetos e oportunidades em Back-end, DevOps,
+                    <br /> DevSecOps e aplicações full-stack com Next.js.
                     <br />
-                    Fala comigo — respondo rápido e sem enrolação.
+                    <strong>Fala comigo</strong> — que eu respondo rápido e sem enrolação.
                 </p>
 
                 <div className={styles.links}>
                     <a href="mailto:Amsbsimoes@gmail.com" className={styles.card}>
-                        <span className={styles.icon}>📧</span>
                         <span className={styles.label}>Email</span>
                         <span className={styles.value}>Amsbsimoes@gmail.com</span>
                     </a>
 
                     <a href="https://github.com/ruhtraleugim" target="_blank" rel="noopener noreferrer" className={styles.card}>
-                        <span className={styles.icon}>🌐</span>
                         <span className={styles.label}>GitHub</span>
                         <span className={styles.value}>github.com/ruhtraleugim</span>
                     </a>
 
                     <a href="https://linkedin.com/in/arthursoutosimoes" target="_blank" rel="noopener noreferrer" className={styles.card}>
-                        <span className={styles.icon}>💼</span>
                         <span className={styles.label}>LinkedIn</span>
                         <span className={styles.value}>in/arthursoutosimoes</span>
                     </a>
