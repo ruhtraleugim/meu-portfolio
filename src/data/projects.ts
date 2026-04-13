@@ -14,201 +14,137 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: '1',
-    slug: 'url-shortener-enterprise',
-    title: 'URL Shortener Enterprise',
-    description: 'Sistema de encurtamento de URLs escalável com Cassandra e Redis.',
-    tags: ['Java', 'Spring', 'Cassandra', 'Redis', 'Docker', 'DevSecOps'],
+    slug: 'saas-microservices',
+    title: 'SaaS Microservices',
+    description: 'Arquitetura distribuída baseada em microsserviços com separação de domínios.',
+    tags: ['Java', 'Spring Boot', 'Microservices', 'Docker'],
     image: '/projects/server.png',
-    status: 'Em Desenvolvimento',
+    status: 'Concluído',
+    githubUrl: 'https://github.com/ruhtraleugim/SaaS-Microservices',
     content: `
       <h2>Visão Geral</h2>
-      <p>Projeto de encurtamento de URLs escalável com Cassandra e Redis. Com o foco em mostrar decisões arquiteturais e minha maturidade como desenvolvedor.</p>
-      
-      <h3>Stack Tecnológica</h3>
-      <ul>
-        <li><strong>Core:</strong> Java 21 + Spring Boot 7</li>
-        <li><strong>Banco de Dados:</strong> Cassandra (leitura rápida)</li>
-        <li><strong>Cache:</strong> Redis</li>
-        <li><strong>Infra:</strong> Docker</li>
-        <li><strong>CI/CD:</strong> GitHub Actions</li>
-        <li><strong>Monitoramento:</strong> Prometheus + Grafana</li>
-        <li><strong>Segurança:</strong> Autenticação via JWT + Safe Browsing API(Google)</li>
-      </ul>
+      <p>Sistema SaaS baseado em arquitetura de microsserviços com foco em separação de responsabilidades.</p>
 
-      <h3>Funcionalidades Chave</h3>
-      <ul>
-        <li>Encurtamento de URLs com TTL configurável</li>
-        <li>Rate Limiting para proteção da API</li>
-        <li>Autenticação via JWT + Safe Browsing API(Google)</li>
-        <li>Pipeline CI/CD com security scan</li>
-      </ul>
-
-      <h3>Valor no Portfólio</h3>
-      <p>Demonstra capacidade de lidar com alto tráfego e dados distribuídos, alem de corte de custos consideraveis por planejamento tecnico.</p>
-    `,
-    githubUrl: 'https://github.com/ruhtraleugim/EncurtadorDeUrl',
-  },
-  {
-    id: '2',
-    slug: 'auth-service-security',
-    title: 'API de Autenticação & Segurança',
-    description: 'Serviço centralizado de identidade com OAuth2, RBAC e auditoria.',
-    tags: ['Java', 'Spring Security', 'JWT', 'DevSecOps'],
-    image: '/projects/security.png',
-    status: 'Em Desenvolvimento',
-    content: `
-      <h2>Visão Geral</h2>
-      <p>Implementação robusta de segurança focada em autenticação e autorização real, indo além do básico.</p>
-      
-      <h3>Funcionalidades</h3>
-      <ul>
-        <li><strong>Autenticação:</strong> JWT + Refresh Token</li>
-        <li><strong>Autorização:</strong> RBAC (Admin, User, Auditor)</li>
-        <li><strong>Segurança:</strong> Brute-force protection, Helmet headers</li>
-        <li><strong>Auditoria:</strong> Logs estruturados no banco de dados</li>
-      </ul>
-
-      <h3>DevSecOps</h3>
-      <p>Pipeline com Trivy para scan de vulnerabilidades em imagens Docker e check de segurança no build.</p>
-    `,
-    githubUrl: 'https://github.com/ruhtraleugim',
-  },
-  {
-    id: '3',
-    slug: 'sistema-inventario-2-0',
-    title: 'Sistema de Inventário 2.0',
-    description: 'Evolução profissional de sistema de gestão com foco em qualidade de código.',
-    tags: ['Java', 'Clean Code', 'Swagger', 'PostgreSQL'],
-    image: '/projects/dashboard.png',
-    status: 'Em Desenvolvimento',
-    content: `
-      <h2>Visão Geral</h2>
-      <p>Versão profissionalizada de um desafio técnico, transformando um MVP em software de produção.</p>
-      
-      <h3>Melhorias Implementadas</h3>
-      <ul>
-        <li>Testes unitários e de integração</li>
-        <li>Tratamento global de exceções</li>
-        <li>Padrão DTO + Mapper</li>
-        <li>Documentação via Swagger</li>
-        <li>Observabilidade (Logs + Health Checks)</li>
-      </ul>
-    `,
-    githubUrl: 'https://github.com/ruhtraleugim',
-  },
-  {
-    id: '4',
-    slug: 'microservicos-reais',
-    title: 'Microsserviços: Product & Order',
-    description: 'Arquitetura distribuída com comunicação assíncrona via Kafka.',
-    tags: ['Microservices', 'Kafka', 'Docker', 'CI/CD'],
-    image: '/projects/server.png',
-    status: 'Em Desenvolvimento',
-    content: `
-      <h2>Visão Geral</h2>
-      <p>Sistema composto por dois serviços integrados (Product-service e Order-service) demonstrando comunicação entre sistemas.</p>
-      
       <h3>Arquitetura</h3>
       <ul>
-        <li><strong>Comunicação:</strong> Assíncrona via Kafka (alto impacto) ou REST</li>
-        <li><strong>Infraestrutura:</strong> Docker Compose para orquestração</li>
-        <li><strong>Segurança:</strong> Gestão segura de secrets</li>
+        <li>Separação por domínio de serviço</li>
+        <li>Comunicação entre serviços</li>
+        <li>Containerização com Docker</li>
+        <li>Estrutura orientada a escalabilidade</li>
+      </ul>
+    `,
+  },
+
+  {
+    id: '2',
+    slug: 'auth-checklist-security',
+    title: 'API Auth / Security Checklist Service',
+    description: 'Serviço de autenticação e checklist de segurança com forte foco em hardening e validações.',
+    tags: ['Java', 'Spring Security', 'JWT', 'Security'],
+    image: '/projects/security.png',
+    status: 'Concluído',
+    githubUrl: 'https://github.com/ruhtraleugim/Checklist',
+    content: `
+      <h2>Visão Geral</h2>
+      <p>Projeto simples transformado em estudo de segurança aplicada e controle de acesso.</p>
+
+      <h3>Funcionalidades</h3>
+      <ul>
+        <li>Autenticação com JWT</li>
+        <li>Controle de acesso básico</li>
+        <li>Regras de segurança aplicadas manualmente</li>
+        <li>Validações estruturadas de entrada</li>
       </ul>
 
-      <h3>DevOps</h3>
-      <p>Pipeline CI/CD completo com testes automatizados e scan de segurança.</p>
+      <h3>Objetivo</h3>
+      <p>Transformar um sistema simples em exercício de aplicação prática de segurança backend.</p>
     `,
-    githubUrl: 'https://github.com/ruhtraleugim',
   },
+
+  {
+    id: '3',
+    slug: 'url-shortener-enterprise',
+    title: 'URL Shortener Enterprise',
+    description: 'Sistema de encurtamento de URLs com cache e persistência distribuída.',
+    tags: ['Java', 'Spring Boot', 'Redis', 'Cassandra'],
+    image: '/projects/server.png',
+    status: 'Concluído',
+    githubUrl: 'https://github.com/ruhtraleugim/EncurtadorDeUrl',
+    content: `
+      <h2>Visão Geral</h2>
+      <p>Sistema de encurtamento de URLs com foco em performance e leitura otimizada.</p>
+
+      <h3>Stack</h3>
+      <ul>
+        <li>Redis para cache de alta velocidade</li>
+        <li>Cassandra para persistência escalável</li>
+        <li>Base62 encoding</li>
+        <li>Arquitetura em camadas</li>
+      </ul>
+
+      <h3>Funcionalidades</h3>
+      <ul>
+        <li>Encurtamento com TTL</li>
+        <li>Redirecionamento otimizado</li>
+      </ul>
+    `,
+  },
+
+  {
+    id: '4',
+    slug: 'inventario-desafio-1-hora',
+    title: 'Sistema de Inventário (Desafio 1 hora)',
+    description: 'API de inventário construída como desafio técnico com foco em velocidade e estrutura.',
+    tags: ['Java', 'Spring Boot', 'PostgreSQL'],
+    image: '/projects/dashboard.png',
+    status: 'Concluído',
+    githubUrl: 'https://github.com/ruhtraleugim/Gerenciador-De-Inventario-Desafio-1-hora',
+    content: `
+      <h2>Visão Geral</h2>
+      <p>Projeto desenvolvido como desafio rápido de implementação backend.</p>
+
+      <h3>Características</h3>
+      <ul>
+        <li>CRUD básico de inventário</li>
+        <li>Estrutura simples e funcional</li>
+        <li>Foco em entrega rápida</li>
+        <li>API REST organizada</li>
+      </ul>
+    `,
+  },
+
   {
     id: '5',
-    slug: 'infraestrutura-como-codigo',
-    title: 'Infraestrutura como Código (IaC)',
-    description: 'Provisionamento automatizado de infraestrutura AWS com Terraform.',
-    tags: ['Terraform', 'AWS', 'DevOps', 'IaC'],
-    image: '/projects/server.png', // Fallback to server image
-    status: 'Em Desenvolvimento',
+    slug: 'livraria-distribuida',
+    title: 'Livraria Distribuída (Fullstack)',
+    description: 'Sistema de compartilhamento de arquivos com backend e frontend separados.',
+    tags: ['Python', 'Flask', 'Vue.js', 'RabbitMQ', 'Docker'],
+    image: '/projects/dashboard.png',
+    status: 'Concluído',
+    githubUrl: 'https://github.com/ruhtraleugim/RestAPI-com-Python-e-Flask',
     content: `
       <h2>Visão Geral</h2>
-      <p>Repositório focado em IaC, provisionando recursos reais na AWS de forma segura e modular.</p>
-      
-      <h3>Recursos Provisionados</h3>
+      <p>Sistema distribuído de compartilhamento de arquivos com arquitetura fullstack.</p>
+
+      <h3>Backend</h3>
       <ul>
-        <li>Instâncias EC2</li>
-        <li>Security Groups configurados</li>
-        <li>Buckets S3</li>
+        <li>Flask API</li>
+        <li>RabbitMQ para mensageria</li>
+        <li>PostgreSQL</li>
+        <li>JWT authentication</li>
       </ul>
 
-      <h3>Boas Práticas</h3>
-      <p>Uso de módulos, variáveis seguras, outputs e documentação técnica detalhada.</p>
-    `,
-    githubUrl: 'https://github.com/ruhtraleugim',
-  },
-  {
-    id: '6',
-    slug: 'app-hardening-owasp',
-    title: 'Hardening & OWASP',
-    description: 'Aplicação focada em segurança defensiva e documentação de ameaças.',
-    tags: ['Security', 'OWASP', 'Hardening', 'Docker'],
-    image: '/projects/security.png',
-    status: 'Em Desenvolvimento',
-    content: `
-      <h2>Visão Geral</h2>
-      <p>Projeto demonstrando conhecimento avançado em segurança de aplicações e infraestrutura.</p>
-      
-      <h3>Implementações</h3>
+      <h3>Frontend</h3>
       <ul>
-        <li>Checklist OWASP aplicado</li>
-        <li>Threat Modeling</li>
-        <li>Dockerfile com hardening (usuário não-root, multi-stage)</li>
-        <li>Análise estática e Trivy no pipeline</li>
+        <li>Vue.js</li>
+        <li>Consumo de API REST</li>
+        <li>Interface simples de upload/download</li>
+      </ul>
+
+      <h3>Infra</h3>
+      <ul>
+        <li>Docker / Docker Compose</li>
       </ul>
     `,
-    githubUrl: 'https://github.com/ruhtraleugim',
-  },
-  {
-    id: '7',
-    slug: 'log-observer',
-    title: 'Log Observer / Monitoramento',
-    description: 'Sistema de observabilidade com Prometheus e Grafana.',
-    tags: ['Observability', 'Prometheus', 'Grafana', 'Spring Boot'],
-    image: '/projects/dashboard.png',
-    status: 'Em Desenvolvimento',
-    content: `
-      <h2>Visão Geral</h2>
-      <p>Mini-projeto focado em instrumentação e monitoramento de aplicações Java.</p>
-      
-      <h3>Stack</h3>
-      <ul>
-        <li>Spring Boot com logs estruturados (JSON)</li>
-        <li>Prometheus para métricas</li>
-        <li>Grafana para visualização</li>
-        <li>Alertas básicos configurados</li>
-      </ul>
-    `,
-    githubUrl: 'https://github.com/ruhtraleugim',
-  }, {
-    id: '8',
-    slug: 'livraria',
-    title: 'Livraria distribuida',
-    description: 'um sistema de inventário de livros onde usuarios podem enviar arquivos para eles mesmo, e possam baixar livros de graça de outros conteiners',
-    tags: ['python', 'docker', 'docker-compose', 'flask', 'postgres', 'pyjwt', 'aws', 'rabbitmq', 'pytest'],
-    image: '/projects/dashboard.png',
-    status: 'Em Desenvolvimento',
-    content: `
-      <h2>Visão Geral</h2>
-      <p>um sistema de inventário de livros onde usuarios podem enviar arquivos para eles mesmo, e possam baixar livros de graça de outros conteiners</p>
-      
-      <h3>Stack</h3>
-      <ul>
-        <li>Flask</li>
-        <li>Postgres</li>
-        <li>PyJWT</li>
-        <li>AWS</li>
-        <li>RabbitMQ</li>
-        <li>Pytest</li>
-      </ul>
-    `,
-    githubUrl: 'https://github.com/Areopagusioteam/-RestAPI-com-Python-e-Flask',
   },
 ];
