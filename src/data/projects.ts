@@ -8,7 +8,7 @@ export interface Project {
   content: string;
   githubUrl?: string;
   liveUrl?: string;
-  status?: 'Em Desenvolvimento' | 'Concluído | Fase final' | 'Planejado';
+  status?: 'Em Desenvolvimento' | 'Concluído' | 'Planejado';
 }
 
 export const projects: Project[] = [
