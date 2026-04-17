@@ -31,12 +31,62 @@ function unflatten(flat: Record<string, string>): Record<string, unknown> {
   return result;
 }
 
-async function translate(text: string, from: string, to: string): Promise<string> {
+const MAX_BYTES = 490;
+
+function splitIntoChunks(text: string): string[] {
+  const chunks: string[] = [];
+  // Split on sentence boundaries to preserve coherence
+  const sentences = text.split(/(?<=[.!?\n])\s+/);
+  let current = '';
+
+  for (const sentence of sentences) {
+    const candidate = current ? `${current} ${sentence}` : sentence;
+    if (Buffer.byteLength(candidate, 'utf-8') <= MAX_BYTES) {
+      current = candidate;
+    } else {
+      if (current) chunks.push(current);
+      // If a single sentence is too long, hard-split by bytes
+      if (Buffer.byteLength(sentence, 'utf-8') > MAX_BYTES) {
+        const words = sentence.split(' ');
+        let sub = '';
+        for (const word of words) {
+          const next = sub ? `${sub} ${word}` : word;
+          if (Buffer.byteLength(next, 'utf-8') <= MAX_BYTES) {
+            sub = next;
+          } else {
+            if (sub) chunks.push(sub);
+            sub = word;
+          }
+        }
+        current = sub;
+      } else {
+        current = sentence;
+      }
+    }
+  }
+  if (current) chunks.push(current);
+  return chunks;
+}
+
+async function translateChunk(text: string, from: string, to: string): Promise<string> {
   const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${from}|${to}&de=amsbsimoes@gmail.com`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`MyMemory API error: ${res.status}`);
   const data = await res.json() as { responseData: { translatedText: string } };
   return data.responseData.translatedText;
+}
+
+async function translate(text: string, from: string, to: string): Promise<string> {
+  if (Buffer.byteLength(text, 'utf-8') <= MAX_BYTES) {
+    return translateChunk(text, from, to);
+  }
+  const chunks = splitIntoChunks(text);
+  const translated: string[] = [];
+  for (const chunk of chunks) {
+    translated.push(await translateChunk(chunk, from, to));
+    await new Promise((r) => setTimeout(r, 300));
+  }
+  return translated.join(' ');
 }
 
 async function translateBatch(
