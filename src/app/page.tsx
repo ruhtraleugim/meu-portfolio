@@ -1,12 +1,12 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-// import Header from '@/components/Header';
-// import Hero from '@/components/Hero';
-// import Stack from '@/components/Stack';
-// import About from '@/components/About';
-// import Projects from '@/components/Projects';
-// import Contact from '@/components/Contact';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import Stack from '@/components/Stack';
+import About from '@/components/About';
+import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
 import EntryScreen from '@/components/EntryScreen';
 
 export default function Home() {
@@ -25,12 +25,12 @@ export default function Home() {
 
   return (
     <main>
-      {/* <Header />
+      <Header />
       <Hero />
       <Stack />
       <About />
       <Projects />
-      <Contact /> */}
+      <Contact />
     </main>
   );
 }

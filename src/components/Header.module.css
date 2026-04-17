@@ -1,0 +1,164 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  padding: 1.5rem 0;
+}
+
+.scrolled {
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--glass-border);
+  padding: 1rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+}
+
+.logo span {
+  color: var(--accent);
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.link {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  position: relative;
+}
+
+.link:hover {
+  color: var(--foreground);
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.langToggle {
+  display: flex;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.langBtn {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--text-muted);
+  transition: color 0.2s, background 0.2s;
+}
+
+.langBtn:hover {
+  color: var(--text);
+}
+
+.langActive {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--accent) !important;
+}
+
+.themeToggleWrap {
+  position: relative;
+}
+
+.themeBtn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.themeDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  transition: background 0.4s;
+}
+
+.themePopover {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  padding: 6px 10px;
+  display: flex;
+  gap: 8px;
+  z-index: 200;
+}
+
+.themeSwatch {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.themeSwatch:hover {
+  transform: scale(1.2);
+}
+
+.themeSwatchActive {
+  border-color: var(--text) !important;
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .langToggle {
+    display: none;
+  }
+}

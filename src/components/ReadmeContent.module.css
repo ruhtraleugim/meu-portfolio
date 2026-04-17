@@ -1,0 +1,89 @@
+.content {
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  color: var(--text);
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.content h1 { font-size: 1.8rem; font-weight: 300; }
+.content h2 { font-size: 1.4rem; font-weight: 400; }
+.content h3 { font-size: 1.1rem; font-weight: 500; color: var(--accent); }
+
+.content p {
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+}
+
+.content a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.content ul,
+.content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+}
+
+.content li { margin-bottom: 0.3rem; }
+
+.content pre {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+.content code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.85rem;
+}
+
+.content :not(pre) > code {
+  background: var(--surface);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  color: var(--accent);
+  font-size: 0.85em;
+}
+
+.content blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.content img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.content th,
+.content td {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.content th {
+  background: var(--surface);
+  color: var(--accent);
+  font-weight: 500;
+}

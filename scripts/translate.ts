@@ -99,7 +99,7 @@ async function main() {
     console.log(`  Saved src/locales/${lang}.json`);
   }
 
-  const { projects } = await import('../src/data/projects.ts');
+  const { projects } = await import('../src/data/projects');
 
   console.log(`\nFetching and translating READMEs for ${projects.length} projects...\n`);
 
