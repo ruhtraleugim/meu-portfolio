@@ -1,65 +1,65 @@
 {
   "nav": {
-    "home": "Início",
+    "home": "Home",
     "about": "Sobre",
-    "projects": "Projetos",
-    "contact": "Contato"
+    "projects": "Proyectos ",
+    "contact": "Contacto"
   },
   "hero": {
-    "greeting": "Olá, eu sou",
-    "headline": "Sistemas que não caem.",
-    "subtitle": "Focado em Back-end e DevSecOps. Construindo sistemas à prova de falhas, do código à infraestrutura.",
-    "cta_primary": "Ver Projetos",
-    "cta_secondary": "Entrar em Contato"
+    "greeting": "Hola, soy",
+    "headline": "Sistemas que no se caen.",
+    "subtitle": "Centrado en Backend y DevSecOps. Creación de sistemas a prueba de fallos, desde el código hasta la infraestructura.",
+    "cta_primary": "Ver proyectos",
+    "cta_secondary": "Entrar en contacto con:"
   },
   "stack": {
-    "title": "Stack Técnica"
+    "title": "Pila técnica"
   },
   "about": {
-    "title": "Sobre Mim",
-    "p1": "Entrego aplicações rápidas, seguras e escaláveis. Trabalho principalmente com Java + Spring, PostgreSQL e arquiteturas distribuídas com Cassandra.",
-    "p2": "No front, uso Next.js para criar interfaces eficientes e integradas às minhas APIs. Meu estilo é engenharia prática: automação, pipelines bem feitos, observabilidade e segurança desde o primeiro commit.",
-    "p3": "Fundador de software house focada em backend de alto desempenho e DevSecOps aplicado.",
+    "title": "Acerca de mí",
+    "p1": "Ofrezco aplicaciones que son rápidas, seguras y escalables. Trabajo principalmente con Java + Spring, PostgreSQL y arquitecturas distribuidas con Cassandra.",
+    "p2": "En el frente, uso Next.js para crear interfaces eficientes que se integran con mis API. Mi estilo es la ingeniería práctica: automatización, tuberías bien hechas, observabilidad y seguridad desde la primera confirmación.",
+    "p3": "Fundador de software House centrado en backend de alto rendimiento y DevSecOps aplicados.",
     "card_backend": "Back-end",
-    "card_backend_desc": "Java, Spring Boot, PostgreSQL, Cassandra, Arquitetura Distribuída",
-    "card_devops": "DevOps & SecOps",
-    "card_devops_desc": "CI/CD, Pipelines, Observabilidade, Segurança, Docker",
+    "card_backend_desc": "Java, Spring Boot, PostgreSQL, Cassandra, Arquitectura Distribuida",
+    "card_devops": "DevOps y SecOps",
+    "card_devops_desc": "CI/CD, Tuberías, Observabilidad, Seguridad, Docker",
     "card_frontend": "Frontend",
     "card_frontend_desc": "Next.js, React, Interfaces Eficientes e Integradas",
-    "card_engineering": "Engenharia",
-    "card_engineering_desc": "Performance, Simplicidade, Entrega Contínua, Sistemas Sólidos"
+    "card_engineering": "Ingeniería",
+    "card_engineering_desc": "Rendimiento, simplicidad, entrega continua, sistemas sólidos"
   },
   "projects": {
-    "title": "Projetos em Destaque",
-    "status_done": "Concluído",
-    "status_wip": "Em Desenvolvimento",
-    "status_planned": "Planejado",
-    "back": "← Voltar para Projetos",
-    "tech": "Tecnologias",
-    "links": "Links",
-    "view_github": "Ver no GitHub",
+    "title": "Proyectos destacados.",
+    "status_done": "Concluido",
+    "status_wip": "en desarrollo",
+    "status_planned": "Planificado",
+    "back": "← Volver a Proyectos",
+    "tech": "Tecnología",
+    "links": "Enlaces",
+    "view_github": "Ver en GitHub",
     "view_live": "Ver Online"
   },
   "contact": {
-    "title": "Vamos Conversar?",
-    "cta": "Se você tem um sistema crítico pra construir, eu tenho interesse.",
-    "description": "Aberto para projetos e oportunidades em Back-end, DevOps, DevSecOps e aplicações full-stack com Next.js.",
-    "email_label": "Email",
+    "title": "¿Hablamos?",
+    "cta": "Si tienes un sistema crítico que construir, me interesa.",
+    "description": "Abierto para proyectos y oportunidades en aplicaciones Backend, DevOps, DevSecOps y full-stack con Next.js.",
+    "email_label": "Correo electrónico",
     "github_label": "GitHub",
-    "linkedin_label": "LinkedIn",
-    "footer": "Todos os direitos reservados."
+    "linkedin_label": "LinkedIn ",
+    "footer": "All Rights Reserved"
   },
   "entry": {
-    "label": "Portfólio",
-    "title": "Para entrar, escolha seu tema",
-    "sub": "Você pode alterar a qualquer momento",
+    "label": "Portafolio",
+    "title": "Para participar, elige tu tema",
+    "sub": "Puedes cambiar en cualquier momento",
     "enter": "Entrar",
-    "hint": "Tema salvo automaticamente",
-    "theme_a_name": "Marinho + Gelo",
-    "theme_a_desc": "Azul noturno profundo com gelo. Elegante, técnico.",
-    "theme_b_name": "Cimento + Aço",
-    "theme_b_desc": "Cinza neutro com azul aço. Frio, preciso.",
-    "theme_c_name": "Concreto + Madeira",
-    "theme_c_desc": "Escuro quente com areia e bege. Orgânico."
+    "hint": "Tema guardado automáticamente",
+    "theme_a_name": "Marino + Hielo",
+    "theme_a_desc": "Azul noche profundo con hielo. Elegante, técnico.",
+    "theme_b_name": "Cemento + Acero",
+    "theme_b_desc": "Gris neutro con acero azul. Frío, preciso.",
+    "theme_c_name": "Concreto + Madera",
+    "theme_c_desc": "Cálido oscuro con arena y beige. Ecológico."
   }
 }

@@ -1,65 +1,65 @@
 {
   "nav": {
-    "home": "Início",
-    "about": "Sobre",
-    "projects": "Projetos",
-    "contact": "Contato"
+    "home": "Start",
+    "about": "Über",
+    "projects": "Projekte",
+    "contact": "kontakt"
   },
   "hero": {
-    "greeting": "Olá, eu sou",
-    "headline": "Sistemas que não caem.",
-    "subtitle": "Focado em Back-end e DevSecOps. Construindo sistemas à prova de falhas, do código à infraestrutura.",
-    "cta_primary": "Ver Projetos",
-    "cta_secondary": "Entrar em Contato"
+    "greeting": "Hallo, ich bin",
+    "headline": "Systeme, die nicht herunterfallen.",
+    "subtitle": "Fokussiert auf Backend und DevSecOps. Aufbau ausfallsicherer Systeme, vom Code bis zur Infrastruktur.",
+    "cta_primary": "PROJEKTE ANZEIGEN",
+    "cta_secondary": "Kontakt"
   },
   "stack": {
-    "title": "Stack Técnica"
+    "title": "Technischer Stack"
   },
   "about": {
-    "title": "Sobre Mim",
-    "p1": "Entrego aplicações rápidas, seguras e escaláveis. Trabalho principalmente com Java + Spring, PostgreSQL e arquiteturas distribuídas com Cassandra.",
-    "p2": "No front, uso Next.js para criar interfaces eficientes e integradas às minhas APIs. Meu estilo é engenharia prática: automação, pipelines bem feitos, observabilidade e segurança desde o primeiro commit.",
-    "p3": "Fundador de software house focada em backend de alto desempenho e DevSecOps aplicado.",
-    "card_backend": "Back-end",
-    "card_backend_desc": "Java, Spring Boot, PostgreSQL, Cassandra, Arquitetura Distribuída",
+    "title": "Über mich",
+    "p1": "Ich liefere Anwendungen, die schnell, sicher und skalierbar sind. Ich arbeite hauptsächlich mit Java + Spring, PostgreSQL und verteilten Architekturen mit Cassandra.",
+    "p2": "Auf der Vorderseite verwende ich Next.js, um effiziente Schnittstellen zu erstellen, die in meine APIs integriert sind. Mein Stil ist praxisorientiertes Engineering: Automatisierung, gut gemachte Pipelines, Beobachtbarkeit und Sicherheit vom ersten Commit an.",
+    "p3": "Der Gründer von House Software konzentrierte sich auf das Hochleistungs-Backend und die Anwendung von DevSecOps.",
+    "card_backend": "Backend",
+    "card_backend_desc": "Java, Spring Boot, PostgreSQL, Cassandra, verteilte Architektur",
     "card_devops": "DevOps & SecOps",
-    "card_devops_desc": "CI/CD, Pipelines, Observabilidade, Segurança, Docker",
+    "card_devops_desc": "CI/CD, Pipelines, Beobachtbarkeit, Sicherheit, Docker",
     "card_frontend": "Frontend",
-    "card_frontend_desc": "Next.js, React, Interfaces Eficientes e Integradas",
-    "card_engineering": "Engenharia",
-    "card_engineering_desc": "Performance, Simplicidade, Entrega Contínua, Sistemas Sólidos"
+    "card_frontend_desc": "Next.js, React, Efficient und Integrated Interfaces",
+    "card_engineering": "Engineering",
+    "card_engineering_desc": "Leistung, Einfachheit, kontinuierliche Bereitstellung, solide Systeme"
   },
   "projects": {
-    "title": "Projetos em Destaque",
-    "status_done": "Concluído",
-    "status_wip": "Em Desenvolvimento",
-    "status_planned": "Planejado",
-    "back": "← Voltar para Projetos",
-    "tech": "Tecnologias",
+    "title": "Hervorgehobene Projekte",
+    "status_done": "Abgeschlossen",
+    "status_wip": "in Aus-dehnung",
+    "status_planned": "geplante",
+    "back": "← Zurück zu den Projekten",
+    "tech": "Technologie",
     "links": "Links",
-    "view_github": "Ver no GitHub",
-    "view_live": "Ver Online"
+    "view_github": "Auf GitHub anzeigen",
+    "view_live": "Online anschauen"
   },
   "contact": {
-    "title": "Vamos Conversar?",
-    "cta": "Se você tem um sistema crítico pra construir, eu tenho interesse.",
-    "description": "Aberto para projetos e oportunidades em Back-end, DevOps, DevSecOps e aplicações full-stack com Next.js.",
-    "email_label": "Email",
+    "title": "Lass uns reden?",
+    "cta": "Wenn du ein kritisches System zu bauen hast, bin ich interessiert.",
+    "description": "Offen für Projekte und Chancen in Backend-, DevOps-, DevSecOps- und Full-Stack-Anwendungen mit Next.js.",
+    "email_label": "E-Mail",
     "github_label": "GitHub",
     "linkedin_label": "LinkedIn",
-    "footer": "Todos os direitos reservados."
+    "footer": "All rights reserved"
   },
   "entry": {
-    "label": "Portfólio",
-    "title": "Para entrar, escolha seu tema",
-    "sub": "Você pode alterar a qualquer momento",
-    "enter": "Entrar",
-    "hint": "Tema salvo automaticamente",
-    "theme_a_name": "Marinho + Gelo",
-    "theme_a_desc": "Azul noturno profundo com gelo. Elegante, técnico.",
-    "theme_b_name": "Cimento + Aço",
-    "theme_b_desc": "Cinza neutro com azul aço. Frio, preciso.",
-    "theme_c_name": "Concreto + Madeira",
-    "theme_c_desc": "Escuro quente com areia e bege. Orgânico."
+    "label": "Portfolio",
+    "title": "Um teilzunehmen, wählen Sie Ihr Theme",
+    "sub": "Sie können jederzeit ändern",
+    "enter": "Einloggen",
+    "hint": "Automatisch gespeichertes Theme",
+    "theme_a_name": "Marine + Eis",
+    "theme_a_desc": "Tiefes Nachtblau mit Eis. Elegant, technisch.",
+    "theme_b_name": "Zement + Stahl",
+    "theme_b_desc": "Neutralgrau mit blauem Stahl. Kalt, präzise.",
+    "theme_c_name": "Beton + Holz",
+    "theme_c_desc": "Warm dunkel mit Sand und Beige. Bio."
   }
 }
