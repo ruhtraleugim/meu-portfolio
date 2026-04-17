@@ -11,6 +11,9 @@
     "translate": "tsx scripts/translate.ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "embla-carousel-react": "^8.6.0",
+    "highlight.js": "^11.11.1",
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

@@ -17,7 +17,9 @@ export default function Home() {
     setShowEntry(!saved);
   }, []);
 
-  if (showEntry === null) return null;
+  if (showEntry === null) {
+    return <div style={{ position: 'fixed', inset: 0, background: 'var(--bg)' }} />;
+  }
 
   if (showEntry) {
     return <EntryScreen onEnter={() => setShowEntry(false)} />;
