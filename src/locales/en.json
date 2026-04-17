@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About,",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I am a",
+    "headline": "Systems that do not fall.",
+    "subtitle": "Focused on Backend and DevSecOps. Building fail-safe systems, from code to infrastructure.",
+    "cta_primary": "View Projects",
+    "cta_secondary": "Contact Fields"
+  },
+  "stack": {
+    "title": "Technical Stack"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "p1": "I deliver applications that are fast, secure, and scalable. I work mainly with Java + Spring, PostgreSQL and distributed architectures with Cassandra.",
+    "p2": "On the front, I use Next.js to create efficient interfaces that are integrated with my APIs. My style is hands-on engineering: automation, well-made pipelines, observability, and security from the first commit.",
+    "p3": "Founder of house software focused on high performance backend and applied DevSecOps.",
+    "card_backend": "Back-end",
+    "card_backend_desc": "Java, Spring Boot, PostgreSQL, Cassandra, Distributed Architecture",
+    "card_devops": "DevOps & SecOps",
+    "card_devops_desc": "CI/CD, Pipelines, Observability, Safety, Docker",
+    "card_frontend": "Frontend",
+    "card_frontend_desc": "Next.js, React, Efficient and Integrated Interfaces",
+    "card_engineering": "Engineering",
+    "card_engineering_desc": "Performance, Simplicity, Continuous Delivery, Solid Systems"
+  },
+  "projects": {
+    "title": "Featured Projects of the Day",
+    "status_done": "Done",
+    "status_wip": "Under Development",
+    "status_planned": "Planned",
+    "back": "Back to Projects",
+    "tech": "Technologies",
+    "links": "Short links",
+    "view_github": "View on GitHub",
+    "view_live": "View online."
+  },
+  "contact": {
+    "title": "Let’s talk?",
+    "cta": "If you have a critical system to build, I'm interested.",
+    "description": "Open for projects and opportunities in Backend, DevOps, DevSecOps and full-stack applications with Next.js.",
+    "email_label": "Email",
+    "github_label": "GitHub",
+    "linkedin_label": "Linkedln",
+    "footer": "All rights reserved."
+  },
+  "entry": {
+    "label": "Portfolio",
+    "title": "To enter, choose your theme",
+    "sub": "You can change the logo anytime.",
+    "enter": "Enter",
+    "hint": "Autosaved",
+    "theme_a_name": "Marine + Ice",
+    "theme_a_desc": "Deep night blue with ice. Elegant, technical.",
+    "theme_b_name": "Cement + Steel",
+    "theme_b_desc": "Neutral gray with blue steel. Cold, precise.",
+    "theme_c_name": "Concrete + Wood",
+    "theme_c_desc": "Warm dark with sand and beige. Organic."
+  }
+}

@@ -1,0 +1,68 @@
+/* src/styles/themes.css */
+
+/* Theme A: Marinho + Gelo (padrão) */
+[data-theme="a"] {
+  --bg: #12151e;
+  --surface: #1e2535;
+  --surface-hover: #273040;
+  --accent: #5b8db8;
+  --accent-rgb: 91, 141, 184;
+  --accent-glow: rgba(91, 141, 184, 0.3);
+  --text: #ccd8e4;
+  --text-muted: #6b8a9e;
+  --border: rgba(91, 141, 184, 0.15);
+  --line-color: rgba(91, 141, 184, 0.6);
+  --line-hi: rgba(168, 196, 216, 0.5);
+
+  /* compat aliases (usados pelos CSS modules existentes) */
+  --background: #12151e;
+  --foreground: #ccd8e4;
+  --primary: #5b8db8;
+  --secondary: #a8c4d8;
+  --glass-border: rgba(91, 141, 184, 0.15);
+  --glass-bg: rgba(18, 21, 30, 0.7);
+}
+
+/* Theme B: Cimento + Aço */
+[data-theme="b"] {
+  --bg: #1a1a1e;
+  --surface: #2c2c32;
+  --surface-hover: #36363e;
+  --accent: #4a6fa5;
+  --accent-rgb: 74, 111, 165;
+  --accent-glow: rgba(74, 111, 165, 0.3);
+  --text: #c8d0d8;
+  --text-muted: #6c7a8a;
+  --border: rgba(74, 111, 165, 0.15);
+  --line-color: rgba(74, 111, 165, 0.6);
+  --line-hi: rgba(140, 168, 196, 0.5);
+
+  --background: #1a1a1e;
+  --foreground: #c8d0d8;
+  --primary: #4a6fa5;
+  --secondary: #8aafcc;
+  --glass-border: rgba(74, 111, 165, 0.15);
+  --glass-bg: rgba(26, 26, 30, 0.7);
+}
+
+/* Theme C: Concreto + Madeira */
+[data-theme="c"] {
+  --bg: #17171a;
+  --surface: #28271f;
+  --surface-hover: #333228;
+  --accent: #8a8070;
+  --accent-rgb: 138, 128, 112;
+  --accent-glow: rgba(138, 128, 112, 0.3);
+  --text: #c0bab2;
+  --text-muted: #6b6356;
+  --border: rgba(138, 128, 112, 0.15);
+  --line-color: rgba(138, 128, 112, 0.6);
+  --line-hi: rgba(192, 186, 178, 0.5);
+
+  --background: #17171a;
+  --foreground: #c0bab2;
+  --primary: #8a8070;
+  --secondary: #c0bab2;
+  --glass-border: rgba(138, 128, 112, 0.15);
+  --glass-bg: rgba(23, 23, 26, 0.7);
+}

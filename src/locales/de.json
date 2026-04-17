@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Start",
+    "about": "Über",
+    "projects": "Projekte",
+    "contact": "kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin",
+    "headline": "Systeme, die nicht herunterfallen.",
+    "subtitle": "Fokussiert auf Backend und DevSecOps. Aufbau ausfallsicherer Systeme, vom Code bis zur Infrastruktur.",
+    "cta_primary": "PROJEKTE ANZEIGEN",
+    "cta_secondary": "Kontakt"
+  },
+  "stack": {
+    "title": "Technischer Stack"
+  },
+  "about": {
+    "title": "Über mich",
+    "p1": "Ich liefere Anwendungen, die schnell, sicher und skalierbar sind. Ich arbeite hauptsächlich mit Java + Spring, PostgreSQL und verteilten Architekturen mit Cassandra.",
+    "p2": "Auf der Vorderseite verwende ich Next.js, um effiziente Schnittstellen zu erstellen, die in meine APIs integriert sind. Mein Stil ist praxisorientiertes Engineering: Automatisierung, gut gemachte Pipelines, Beobachtbarkeit und Sicherheit vom ersten Commit an.",
+    "p3": "Der Gründer von House Software konzentrierte sich auf das Hochleistungs-Backend und die Anwendung von DevSecOps.",
+    "card_backend": "Backend",
+    "card_backend_desc": "Java, Spring Boot, PostgreSQL, Cassandra, verteilte Architektur",
+    "card_devops": "DevOps & SecOps",
+    "card_devops_desc": "CI/CD, Pipelines, Beobachtbarkeit, Sicherheit, Docker",
+    "card_frontend": "Frontend",
+    "card_frontend_desc": "Next.js, React, Efficient und Integrated Interfaces",
+    "card_engineering": "Engineering",
+    "card_engineering_desc": "Leistung, Einfachheit, kontinuierliche Bereitstellung, solide Systeme"
+  },
+  "projects": {
+    "title": "Hervorgehobene Projekte",
+    "status_done": "Abgeschlossen",
+    "status_wip": "in Aus-dehnung",
+    "status_planned": "geplante",
+    "back": "← Zurück zu den Projekten",
+    "tech": "Technologie",
+    "links": "Links",
+    "view_github": "Auf GitHub anzeigen",
+    "view_live": "Online anschauen"
+  },
+  "contact": {
+    "title": "Lass uns reden?",
+    "cta": "Wenn du ein kritisches System zu bauen hast, bin ich interessiert.",
+    "description": "Offen für Projekte und Chancen in Backend-, DevOps-, DevSecOps- und Full-Stack-Anwendungen mit Next.js.",
+    "email_label": "E-Mail",
+    "github_label": "GitHub",
+    "linkedin_label": "LinkedIn",
+    "footer": "All rights reserved"
+  },
+  "entry": {
+    "label": "Portfolio",
+    "title": "Um teilzunehmen, wählen Sie Ihr Theme",
+    "sub": "Sie können jederzeit ändern",
+    "enter": "Einloggen",
+    "hint": "Automatisch gespeichertes Theme",
+    "theme_a_name": "Marine + Eis",
+    "theme_a_desc": "Tiefes Nachtblau mit Eis. Elegant, technisch.",
+    "theme_b_name": "Zement + Stahl",
+    "theme_b_desc": "Neutralgrau mit blauem Stahl. Kalt, präzise.",
+    "theme_c_name": "Beton + Holz",
+    "theme_c_desc": "Warm dunkel mit Sand und Beige. Bio."
+  }
+}

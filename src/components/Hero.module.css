@@ -1,0 +1,86 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding-top: 80px;
+}
+
+.content {
+  text-align: center;
+  max-width: 800px;
+  z-index: 1;
+}
+
+.greeting {
+  font-size: 1rem;
+  color: var(--accent);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  display: block;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.2s;
+}
+
+.title {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.4s;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 2.5rem;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  line-height: 1.7;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.6s;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.8s;
+}
+
+.btnSecondary {
+  background: transparent;
+  color: var(--text);
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-weight: 400;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.05em;
+}
+
+.btnSecondary:hover {
+  background: var(--surface);
+  border-color: var(--accent);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .title { font-size: 2.5rem; }
+  .subtitle { font-size: 1rem; }
+  .actions { flex-direction: column; align-items: center; }
+}

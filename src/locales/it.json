@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Inizio:",
+    "about": "Info",
+    "projects": "Progetti",
+    "contact": "Contatto"
+  },
+  "hero": {
+    "greeting": "Ehi, io sono...",
+    "headline": "Sistemi che non cadono.",
+    "subtitle": "Focus su Backend e DevSecOps. Costruire sistemi fail-safe, dal codice all'infrastruttura.",
+    "cta_primary": "Visualizza progetti",
+    "cta_secondary": "Contattaci"
+  },
+  "stack": {
+    "title": "Pila tecnica"
+  },
+  "about": {
+    "title": "Informazioni personali",
+    "p1": "Fornisco applicazioni veloci, sicure e scalabili. Lavoro principalmente con Java + Spring, PostgreSQL e architetture distribuite con Cassandra.",
+    "p2": "Sul fronte, uso Next.js per creare interfacce efficienti che sono integrate con le mie API. Il mio stile è l'ingegneria pratica: automazione, pipeline ben fatte, osservabilità e sicurezza sin dal primo commit.",
+    "p3": "Founder of house software focused on high performance backend and applied DevSecOps.",
+    "card_backend": "Back-end",
+    "card_backend_desc": "Java, Spring Boot, PostgreSQL, Cassandra, Architettura distribuita",
+    "card_devops": "DevOps e SecOps",
+    "card_devops_desc": "CI/CD, Pipeline, Osservabilità, Sicurezza, Docker",
+    "card_frontend": "Frontend",
+    "card_frontend_desc": "Interfacce Next.js, React, Efficienti e Integrate",
+    "card_engineering": "Ingegneria",
+    "card_engineering_desc": "Prestazioni, Semplicità, Continuous Delivery, Sistemi Solidi"
+  },
+  "projects": {
+    "title": "Progetti in primo piano",
+    "status_done": "Concluso",
+    "status_wip": "In fase di sviluppo.",
+    "status_planned": "Pianificato",
+    "back": "← Torna ai progetti",
+    "tech": "Tecnologie",
+    "links": "Link",
+    "view_github": "Visualizza su GitHub",
+    "view_live": "Visualizza online"
+  },
+  "contact": {
+    "title": "Dovremmo parlarne? No.",
+    "cta": "Se hai un sistema critico da costruire, mi interessa.",
+    "description": "Aperto a progetti e opportunità in Backend, DevOps, DevSecOps e applicazioni full-stack con Next.js.",
+    "email_label": "Email",
+    "github_label": "GitHub",
+    "linkedin_label": "LinkedIn",
+    "footer": "Tutti i diritti riservati "
+  },
+  "entry": {
+    "label": "Portfolio",
+    "title": "Per partecipare, scegli il tuo tema",
+    "sub": "Puoi cambiare in qualsiasi momento",
+    "enter": "Esegui l\\'accesso",
+    "hint": "Tema salvato automaticamente",
+    "theme_a_name": "Marino + Ghiaccio",
+    "theme_a_desc": "Blu notte profondo con ghiaccio. Elegante, tecnica.",
+    "theme_b_name": "Cemento + Acciaio",
+    "theme_b_desc": "Grigio neutro con acciaio blu. Freddo, preciso.",
+    "theme_c_name": "Cemento + Legno",
+    "theme_c_desc": "Scuro caldo con sabbia e beige. Biologico."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Sobre",
+    "projects": "Proyectos ",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "headline": "Sistemas que no se caen.",
+    "subtitle": "Centrado en Backend y DevSecOps. Creación de sistemas a prueba de fallos, desde el código hasta la infraestructura.",
+    "cta_primary": "Ver proyectos",
+    "cta_secondary": "Entrar en contacto con:"
+  },
+  "stack": {
+    "title": "Pila técnica"
+  },
+  "about": {
+    "title": "Acerca de mí",
+    "p1": "Ofrezco aplicaciones que son rápidas, seguras y escalables. Trabajo principalmente con Java + Spring, PostgreSQL y arquitecturas distribuidas con Cassandra.",
+    "p2": "En el frente, uso Next.js para crear interfaces eficientes que se integran con mis API. Mi estilo es la ingeniería práctica: automatización, tuberías bien hechas, observabilidad y seguridad desde la primera confirmación.",
+    "p3": "Fundador de software House centrado en backend de alto rendimiento y DevSecOps aplicados.",
+    "card_backend": "Back-end",
+    "card_backend_desc": "Java, Spring Boot, PostgreSQL, Cassandra, Arquitectura Distribuida",
+    "card_devops": "DevOps y SecOps",
+    "card_devops_desc": "CI/CD, Tuberías, Observabilidad, Seguridad, Docker",
+    "card_frontend": "Frontend",
+    "card_frontend_desc": "Next.js, React, Interfaces Eficientes e Integradas",
+    "card_engineering": "Ingeniería",
+    "card_engineering_desc": "Rendimiento, simplicidad, entrega continua, sistemas sólidos"
+  },
+  "projects": {
+    "title": "Proyectos destacados.",
+    "status_done": "Concluido",
+    "status_wip": "en desarrollo",
+    "status_planned": "Planificado",
+    "back": "← Volver a Proyectos",
+    "tech": "Tecnología",
+    "links": "Enlaces",
+    "view_github": "Ver en GitHub",
+    "view_live": "Ver Online"
+  },
+  "contact": {
+    "title": "¿Hablamos?",
+    "cta": "Si tienes un sistema crítico que construir, me interesa.",
+    "description": "Abierto para proyectos y oportunidades en aplicaciones Backend, DevOps, DevSecOps y full-stack con Next.js.",
+    "email_label": "Correo electrónico",
+    "github_label": "GitHub",
+    "linkedin_label": "LinkedIn ",
+    "footer": "All Rights Reserved"
+  },
+  "entry": {
+    "label": "Portafolio",
+    "title": "Para participar, elige tu tema",
+    "sub": "Puedes cambiar en cualquier momento",
+    "enter": "Entrar",
+    "hint": "Tema guardado automáticamente",
+    "theme_a_name": "Marino + Hielo",
+    "theme_a_desc": "Azul noche profundo con hielo. Elegante, técnico.",
+    "theme_b_name": "Cemento + Acero",
+    "theme_b_desc": "Gris neutro con acero azul. Frío, preciso.",
+    "theme_c_name": "Concreto + Madera",
+    "theme_c_desc": "Cálido oscuro con arena y beige. Ecológico."
+  }
+}
