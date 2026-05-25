@@ -3,7 +3,7 @@
 import useEmblaCarousel from 'embla-carousel-react';
 import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures';
 import Link from 'next/link';
-import { useCallback, ReactNode } from 'react';
+import React, { useCallback, ReactNode } from 'react';
 import { Project } from '@/data/projects';
 import { useLanguage } from '@/context/LanguageContext';
 import WipCard from './WipCard';
