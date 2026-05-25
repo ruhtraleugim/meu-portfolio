@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Stack from '@/components/Stack';
 import About from '@/components/About';
-import Projects from '@/components/Projects';
+import ProjectsByLanguage from '@/components/ProjectsByLanguage';
 import Contact from '@/components/Contact';
 import EntryScreen from '@/components/EntryScreen';
 
@@ -31,7 +31,7 @@ export default function Home() {
       <Hero />
       <Stack />
       <About />
-      <Projects />
+      <ProjectsByLanguage />
       <Contact />
     </main>
   );
