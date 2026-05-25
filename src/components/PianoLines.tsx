@@ -13,19 +13,19 @@ interface LineConfig {
 
 const LINES: LineConfig[] = [
   // Finas — rápidas
-  { width: '1px', height: '32vh', left: '7%',  duration: 2.6, delay: 0.0, opacity: 0.22 },
-  { width: '1px', height: '28vh', left: '19%', duration: 3.3, delay: 1.1, opacity: 0.18 },
-  { width: '1px', height: '36vh', left: '33%', duration: 2.4, delay: 0.6, opacity: 0.20 },
-  { width: '1px', height: '30vh', left: '52%', duration: 3.0, delay: 1.9, opacity: 0.17 },
-  { width: '1px', height: '34vh', left: '71%', duration: 2.8, delay: 0.3, opacity: 0.20 },
-  { width: '1px', height: '26vh', left: '88%', duration: 3.5, delay: 1.5, opacity: 0.16 },
+  { width: '1px', height: '32vh', left: '7%',  duration: 2.6, delay: 0.0, opacity: 0.55 },
+  { width: '1px', height: '28vh', left: '19%', duration: 3.3, delay: 1.1, opacity: 0.45 },
+  { width: '1px', height: '36vh', left: '33%', duration: 2.4, delay: 0.6, opacity: 0.50 },
+  { width: '1px', height: '30vh', left: '52%', duration: 3.0, delay: 1.9, opacity: 0.42 },
+  { width: '1px', height: '34vh', left: '71%', duration: 2.8, delay: 0.3, opacity: 0.50 },
+  { width: '1px', height: '26vh', left: '88%', duration: 3.5, delay: 1.5, opacity: 0.40 },
   // Médias — lentas
-  { width: '2px', height: '52vh', left: '13%', duration: 4.8, delay: 0.4, opacity: 0.13 },
-  { width: '2px', height: '58vh', left: '42%', duration: 5.5, delay: 2.3, opacity: 0.11 },
-  { width: '2px', height: '48vh', left: '76%', duration: 4.3, delay: 1.0, opacity: 0.12 },
+  { width: '2px', height: '52vh', left: '13%', duration: 4.8, delay: 0.4, opacity: 0.32 },
+  { width: '2px', height: '58vh', left: '42%', duration: 5.5, delay: 2.3, opacity: 0.28 },
+  { width: '2px', height: '48vh', left: '76%', duration: 4.3, delay: 1.0, opacity: 0.30 },
   // Grossas — dramáticas
-  { width: '3px', height: '78vh', left: '28%', duration: 7.2, delay: 0.0, opacity: 0.07 },
-  { width: '3px', height: '70vh', left: '62%', duration: 8.8, delay: 4.0, opacity: 0.06 },
+  { width: '3px', height: '78vh', left: '28%', duration: 7.2, delay: 0.0, opacity: 0.18 },
+  { width: '3px', height: '70vh', left: '62%', duration: 8.8, delay: 4.0, opacity: 0.15 },
 ];
 
 export default function PianoLines() {
